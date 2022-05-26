@@ -87,7 +87,7 @@ jobs:
 +       uses: hdoc/hdoc-github-action@v1
 +       with:
 +         compile-commands-path: build/compile_commands.json
-+         hdoc-api-key: ${{ secrets.HDOC_PROJECT_API_KEY }}```
++         hdoc-api-key: ${{ secrets.HDOC_PROJECT_API_KEY }}
 ```
 
 This GitHub Workflow will accomplish the following:
