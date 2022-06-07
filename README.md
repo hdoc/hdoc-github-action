@@ -84,7 +84,7 @@ jobs:
 +         ninja -C build  # Optional, you don't need to build the project to use hdoc
 
 +     - name: Run hdoc to generate documentation and push it to docs.hdoc.io
-+       uses: hdoc/hdoc-github-action@v1
++       uses: hdoc/hdoc-github-action@v2
 +       with:
 +         compile-commands-path: build/compile_commands.json
 +         hdoc-api-key: ${{ secrets.HDOC_PROJECT_API_KEY }}
