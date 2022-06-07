@@ -1,4 +1,4 @@
-FROM ghcr.io/hdoc/hdoc:1.2.2
+FROM ghcr.io/hdoc/hdoc:latest
 
 COPY entrypoint.sh /entrypoint.sh
 
